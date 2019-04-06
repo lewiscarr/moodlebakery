@@ -1,0 +1,471 @@
+/* Make a copy before editing the styles below */
+
+div.logo {height: 100px;}
+
+body,
+.section .activity.modtype_label.label,
+.nav-collapse .nav > li > a,
+.nav-collapse .dropdown-menu a {
+    font-weight: 300;
+}
+
+/* ----- Navigation bar ----- */
+.navbar-fixed-top .navbar-inner {
+    border-bottom: 3px solid #f98012;
+    background-image: none;
+}
+
+/* Navigation bar: default text color */
+.navbar .nav > li > a,
+.dropdown-menu > li > a,
+.nav-collapse .nav > li > a,
+.nav-collapse .dropdown-menu a,
+.usermenu .login,
+.usermenu .login a,
+.usermenu .moodle-actionmenu .toggle-display {
+    color: #666;
+    text-shadow: none;
+}
+
+/* Navigation bar: text color and background-color on hover */
+.nav-collapse .nav > li > a:hover,
+.nav-collapse .nav > li > a:focus,
+.nav-collapse .dropdown-menu a:hover,
+.nav-collapse .dropdown-menu a:focus,
+.nav-collapse .dropdown-submenu a:focus,
+.nav-collapse .dropdown-submenu a:hover,
+.nav-collapse .dropdown-submenu a:active,
+.nav-collapse .dropdown-menu > li > a:hover,
+.nav-collapse .dropdown-menu > li > a:focus,
+.navbar .nav li.dropdown.open >.dropdown-toggle,
+.navbar .nav li.dropdown.active > .dropdown-toggle,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-submenu:hover > a,
+.dropdown-submenu:focus > a,
+.jsenabled .usermenu .moodle-actionmenu.show,
+.usermenu .moodle-actionmenu .toggle-display:hover,
+.jsenabled .usermenu .moodle-actionmenu.show .menu a:hover {
+    color: #fe5607;
+    background-color: #E5E5E5;
+    background-image: none;
+}
+
+/* Navigation bar: text color on hover for the user menu */
+.jsenabled .usermenu .moodle-actionmenu .toggle-display:hover,
+.usermenu .login a:focus,
+.usermenu .login a:hover {
+    color: #fe5607;
+}
+
+.jsenabled .usermenu .moodle-actionmenu > .menubar {
+    margin: 0;
+}
+
+#page-navbar {
+    border: 1px solid #eee;
+    border-radius: 9px;
+}
+
+/* ----- End navigation bar ----- */
+
+/* ----- Breadcrumb ----- */
+#page-navbar {
+    background-color: #fff;
+    padding-top: 10px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+}
+
+.breadcrumb {
+    background-color: transparent;
+}
+
+.breadcrumb > li {
+    text-shadow: none;
+}
+/* ----- End breadcrumb ----- */
+
+/* ----- Main content area and blocks ----- */
+#region-main {
+    font-size: 15px;
+}
+
+#region-main,
+.block {
+    border: 1px solid #eee;
+    border-radius: 9px;
+    box-shadow: none;
+}
+
+.block .header h2 {
+    color:#000!important;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-shadow: none;
+}
+/* ----- End main content area and blocks ----- */
+
+/* ----- Post-it ----- */
+.tip-container {
+  margin: 20px;
+  position: relative;
+}
+
+.note {
+  color: #333;
+  position: relative;
+  padding: 10px;
+  box-shadow: 4px 6px 8px 0 rgba(0, 0, 0, 0.1)
+}
+
+.yellow {
+  background: #FFFFC6;
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  transform: rotate(2deg);
+}
+
+div#inst19.block_html.block {
+   background-color: transparent !important;
+   border: none  !important;
+   shadow: none  !important;
+}
+/* ----- End post-it ----- */
+
+
+#page-navbar {
+    background-color: transparent;
+    padding-top: 10px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+    border: none!important;
+}
+
+.block .header h2 {
+    color: #666;
+    font-size: 24px;
+   color:#fff;
+    font-family: 'Nothing You Could Do';
+
+}
+
+
+.block {
+  border:none!important;
+  
+}
+
+#region-main, .block {
+    border: none;
+   
+}
+
+.page-context-header .page-header-headings h1 {
+    display: block;
+    color: #edb680;
+font-family: 'Nothing You Could Do';
+    font-size: 300%;
+}
+
+.navbar-inverse .brand {
+ font-family: 'Nothing You Could Do';
+}
+
+.coursebox>.info>.coursename a {
+ font-family: 'Nothing You Could Do';
+}
+
+
+#page-footer {
+    box-sizing: border-box;
+    margin: 0;
+    min-height: 180px;
+    background: url('https://raw.githubusercontent.com/lewiscarr/moodlebakery/master/loaves.png');
+    width: 100%;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.coursebox .content .courseimage img {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 30px;
+    border: 3px solid #fff;
+}
+
+.coursebox {
+   
+    border: none;
+    color:#fff;
+}
+
+section#region-main {
+    background: transparent;
+}
+
+.navbar-fixed-top .navbar-inner {
+    border-bottom: 3px solid #f98012;
+    background-image: none;
+    padding: 40px;
+}
+
+#page {
+    padding-top: 140px!important;
+}
+
+.navbar-inverse .brand {
+    font-family: 'Nothing You Could Do';
+    font-size: 300%;
+    color: #fff;
+}
+
+.block .header h2 {
+    background: url(https://github.com/lewiscarr/moodlebakery/blob/master/im_baking_icon_1315019.png?raw=true);
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+    padding: 20px 10px 20px 70px;
+}
+
+
+.navbar-fixed-top .navbar-inner {
+    border-bottom: none;
+    background-image: none;
+    padding: 40px;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.coursebox .enrolmenticons {
+    padding: 3px 0;
+    float: right;
+    background: green;
+    padding: 10px;
+    border-radius: 150%;
+    border: 3px solid #fff;
+ -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+div#frontpage-available-course-list h2 {
+    text-transform: uppercase;
+    font-size: 500%;
+    color: #edb680;
+    text-align:center;
+    line-height: 90px;
+}
+
+.courses .coursebox.even {
+    background-color: transparent;
+    color: #fff;
+margin-top:60px;
+}
+
+#nav-moodlecloud-quota-popover-container .popover-region-toggle {
+    
+    color: #edb680;
+}
+
+i.icon.fa.fa-bell {
+    background: green;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 150%;
+    color: #fff;
+}
+
+i.icon.fa.fa-info-circle.fa-fw {
+    padding: 10px;
+    background: green;
+    border-radius: 150%;
+    border: 2px solid #fff;
+  color: #fff;
+}
+
+div#page-content {
+    color: #fff;
+}
+
+i.icon.fa.fa-comment.fa-fw {
+    background: green;
+    padding: 11px 9px 11px 9px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 150%;
+}
+
+#nav-moodlecloud-quota-popover-container progress {
+  
+    border: 2px solid #fff;
+}
+
+.block {
+background: rgba(0,0,0,.8);
+}
+
+.navbar .nav>li>a, .dropdown-menu>li>a, .nav-collapse .nav>li>a {
+    color: #e51c41;
+text-shadow: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.block .header h2 {
+   
+    color: #fff!important;
+    
+}
+
+#page-footer {
+    box-sizing: border-box;
+    margin: 0;
+    min-height: 180px;
+    background-color: transparent!important;
+    width: 100%;
+border:none!important;
+}
+
+h3.sectionname a {
+    text-transform: uppercase;
+    font-size: 300%;
+    color: #edb680;
+    max-width: 500px;
+    line-height: 90px;
+}
+
+.course-content ul li.section.main {
+    border-bottom: none;
+}
+
+input[type="submit"] {
+    border: 3px solid #fff;
+    background: transparent;
+    padding: 15px 25px 15px 25px;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: none;
+    font-weight: bold;
+}
+
+
+body#page-site-index .page-context-header .page-header-headings h1 {
+display: none
+}
+
+.page-context-header h1 {
+    text-align: center;
+text-shadow: 5px 5px 5px rgba(5,19,28,0.69);
+}
+
+h3.sectionname {
+    text-shadow: 5px 5px 5px rgba(5,19,28,0.69);
+}
+
+ul.section.img-text {
+    padding: 20px;
+    
+}
+
+span.instancename {
+    font-size: 160%;
+    font-weight: bold;
+    color: #fff;
+margin-left:20px;
+}
+
+img.iconlarge.activityicon {
+    padding: 5px;
+    border: 2px solid #fff;
+    border-radius: 7px;
+    background: rgba(208,206,205,.3);
+    vertical-align: middle;
+-webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+transform: rotate(-20deg);
+}
+
+img.iconlarge {
+    height: 40px;
+    width: 40px;
+    vertical-align: middle;
+}
+
+
+.section .activity .contentafterlink {
+    margin-top: .5em;
+    margin-left: 30px;
+    position: relative;
+    padding: 15px;
+    /* margin: 100px 0 0.5em; */
+    color: #fff;
+    background: rgba(229, 163, 0, 0.7);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14);
+        
+ }
+
+
+.label-info, .badge-info {
+    background-color: #3a87ad;
+    padding: 10px;
+    font-size: 130%;
+    text-transform: uppercase;
+}
+
+.block_navigation.block {
+    display: none;
+}
+
+.breadcrumb-nav .breadcrumb {
+    display: none;
+}
+
+
+
+li.activity.label, .file-picker td.label {
+    background: inherit;
+    color: #000;
+    border: inherit;
+    text-shadow: none;
+    padding: 8px;
+    white-space: normal;
+    display: block;
+    font-size: inherit;
+    line-height: inherit;
+    background: #ffc;
+    border-radius: 0px;
+    padding: 20px 20px 20px 20px!important;
+    font-size: 130%;
+transform: rotate(-3deg);
+-webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+max-width: 40%;
+}
+
+
+
+p.helplink a {
+    background: green;
+    color: #fff;
+    padding: 7px 15px 7px 15px;
+    border: 2px solid #fff;
+    border-radius: 7px;
+}
+
+i.icon.fa.fa-info-circle.fa-fw.iconhelp.icon-pre {
+    display: none;
+}
